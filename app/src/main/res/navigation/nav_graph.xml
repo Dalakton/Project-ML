@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeListFragment">
+
+    <fragment
+        android:id="@+id/homeListFragment"
+        android:name="com.example.summer.ui.HomeListFragment"
+        android:label="fragment_home_list"
+        tools:layout="@layout/fragment_home_list" >
+        <action
+            android:id="@+id/action_homeListFragment_to_homeDetailsFragment"
+            app:destination="@id/homeDetailsFragment" />
+        <action
+            android:id="@+id/action_homeListFragment_to_homeRegistrationFragment"
+            app:destination="@id/homeRegistrationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeDetailsFragment"
+        android:name="com.example.summer.ui.HomeDetailsFragment"
+        android:label="fragment_home_details"
+        tools:layout="@layout/fragment_home_details" >
+        <action
+            android:id="@+id/action_homeDetailsFragment_to_favoriteHomeFragment"
+            app:destination="@id/favoriteHomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteHomeFragment"
+        android:name="com.example.summer.ui.FavoriteHomeFragment"
+        android:label="fragment_favorite_home"
+        tools:layout="@layout/fragment_favorite_home" />
+    <fragment
+        android:id="@+id/homeRegistrationFragment"
+        android:name="com.example.summer.ui.HomeRegistrationFragment"
+        android:label="fragment_home_registration"
+        tools:layout="@layout/fragment_home_registration" >
+        <action
+            android:id="@+id/action_homeRegistrationFragment_to_homeListFragment"
+            app:destination="@id/homeListFragment" />
+    </fragment>
+</navigation>

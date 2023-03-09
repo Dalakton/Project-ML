@@ -1,0 +1,18 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home">HOME</string>
+    <string name="Favoritos">Favoritos</string>
+    <string name="nome_do_local">Nome Do Local</string>
+    <string name="descricao_do_local">Descrição Do Local</string>
+    <string name="cep">CEP</string>
+    <string name="numero_para_contato">Numero Para Contato</string>
+    <string name="preco">Preço</string>
+    <string name="diaria">Diaria</string>
+    <string name="app_name">Summer</string>
+
+    <string-array name="periodos">
+        <item>Diaria</item>
+        <item>Final De Semana</item>
+    </string-array>
+
+</resources>
