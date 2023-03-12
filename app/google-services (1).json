@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "800829718262",
+    "project_id": "meu-lazer-89cf8",
+    "storage_bucket": "meu-lazer-89cf8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800829718262:android:d7d0e6d822bb7f763af6d7",
+        "android_client_info": {
+          "package_name": "com.example.summer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800829718262-08hoou28u4r9en2pa5r8e1rjm7k17bub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXnQAcK4goWXUT1iHblYeqpQ7l3bCXdts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800829718262-08hoou28u4r9en2pa5r8e1rjm7k17bub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
