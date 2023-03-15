@@ -29,7 +29,6 @@ class HomeRegistrationFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        configDropDowm()
         navigationBackHomeList()
     }
 
@@ -39,12 +38,4 @@ class HomeRegistrationFragment : Fragment() {
             findNavController().navigate(action)
         }
     }
-
-    private fun configDropDowm() {
-        val periodos = resources.getStringArray(R.array.periodos)
-        val arrayAdapter = ArrayAdapter(requireContext(), R.layout.dropdown_item, periodos)
-        binding.autoCompletextView.setAdapter(arrayAdapter)
-    }
-
-
 }
