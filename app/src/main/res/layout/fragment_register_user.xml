@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/blu"
-    tools:context=".ui.RegisterUserFragment">
+    tools:context=".ui.registerUser.RegisterUserFragment">
 
 
     <com.google.android.material.textfield.TextInputLayout

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeListFragment"
-        android:name="com.example.summer.ui.HomeListFragment"
+        android:name="com.example.summer.ui.homeList.HomeListFragment"
         android:label="fragment_home_list"
         tools:layout="@layout/fragment_home_list" >
         <action
@@ -22,7 +22,7 @@
     </fragment>
     <fragment
         android:id="@+id/homeDetailsFragment"
-        android:name="com.example.summer.ui.HomeDetailsFragment"
+        android:name="com.example.summer.ui.homeDetails.HomeDetailsFragment"
         android:label="fragment_home_details"
         tools:layout="@layout/fragment_home_details" >
         <action
@@ -31,12 +31,12 @@
     </fragment>
     <fragment
         android:id="@+id/favoriteHomeFragment"
-        android:name="com.example.summer.ui.FavoriteHomeFragment"
+        android:name="com.example.summer.ui.favoriteHome.FavoriteHomeFragment"
         android:label="fragment_favorite_home"
         tools:layout="@layout/fragment_favorite_home" />
     <fragment
         android:id="@+id/homeRegistrationFragment"
-        android:name="com.example.summer.ui.HomeRegistrationFragment"
+        android:name="com.example.summer.ui.homeRegistration.HomeRegistrationFragment"
         android:label="fragment_home_registration"
         tools:layout="@layout/fragment_home_registration" >
         <action
@@ -45,7 +45,7 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.summer.ui.LoginFragment"
+        android:name="com.example.summer.ui.login.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -57,7 +57,7 @@
     </fragment>
     <fragment
         android:id="@+id/registerUserFragment"
-        android:name="com.example.summer.ui.RegisterUserFragment"
+        android:name="com.example.summer.ui.registerUser.RegisterUserFragment"
         android:label="fragment_register_user"
         tools:layout="@layout/fragment_register_user" >
         <action

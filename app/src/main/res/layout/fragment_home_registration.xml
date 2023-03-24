@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.HomeRegistrationFragment">
+    tools:context=".ui.homeRegistration.HomeRegistrationFragment">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -30,6 +30,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
+                android:scaleType="centerCrop"
                 android:background="@drawable/box_stroke"
                 android:src="@drawable/ic_add_a_photo"
                 app:layout_constraintEnd_toEndOf="parent"

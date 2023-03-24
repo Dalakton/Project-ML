@@ -1,4 +1,4 @@
-package com.example.summer.ui
+package com.example.summer.ui.favoriteHome
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.example.summer.R
 
 
-class HomeDetailsFragment : Fragment() {
+class FavoriteHomeFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,7 +20,8 @@ class HomeDetailsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home_details, container, false)
+        return inflater.inflate(R.layout.fragment_favorite_home, container, false)
     }
+
 
 }
